@@ -1,0 +1,22 @@
+body, html {
+  font: 14px Arial;
+  color: black;
+}
+
+div.example {
+  padding: 0 10px;
+  border-left: 2px solid #444;
+  margin: 10px 0;
+}
+
+div.intro {
+  background: #d3d3d3;
+  padding: 20px;
+}
+
+code {
+  background: #d3d3d3;
+  padding: 3px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
