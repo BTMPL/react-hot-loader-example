@@ -3,10 +3,10 @@ import Field from "./Field.js";
 
 import Counter from "./Counter.js";
 
-import store from "./store.js";
+import store from "../store.js";
 import { Provider } from "react-redux";
 
-import ReduxClient from "./ReduxClient";
+import ReduxClient from "../containers/ReduxClient";
 
 require("./App.css");
 

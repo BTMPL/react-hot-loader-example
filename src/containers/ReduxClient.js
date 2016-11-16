@@ -23,7 +23,7 @@ class ReduxClient extends React.Component {
 	}
 
 	addItem() {
-		this.props.dispatchItem({name: "test3"});
+		this.props.dispatchItem({name: "new item"});
 	}
 
 	render() {
