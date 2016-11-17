@@ -6,6 +6,7 @@ export default function() {
 
 	if(module.hot) {
 	  module.hot.accept('./reducers/reducer.js', () => {
+	  	console.log("store.js HMR");
 	    const newReducer = require('./reducers/reducer.js').default;
 	    store.replaceReducer(newReducer);
 	  });
