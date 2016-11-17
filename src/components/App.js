@@ -10,11 +10,12 @@ import ReduxClient from "../containers/ReduxClient";
 
 require("./App.css");
 
+
 class App extends React.Component {
 
   render() {
     return (
-      <Provider store={store}>
+      <Provider store={store()}>
       <div>
         <div className="intro">
           Bellow you will find a couple of Components. Please open the corresponding file and make changes to see how the app updates:
