@@ -8,7 +8,9 @@ module.exports = {
 		path: __dirname + "/dist",
 		filename: 'bundle.js'
 	},
-	contentBase: "dist/",
+	devServer: {
+		contentBase: "dist/"
+	},
 	module: {
     loaders: [
       {
