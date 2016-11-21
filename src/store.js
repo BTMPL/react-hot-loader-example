@@ -1,8 +1,9 @@
 import { createStore } from "redux";
 import testReducer from "./reducers/reducer";
 
+let store = createStore(testReducer);
+
 export default function() {
-	let store = createStore(testReducer);
 
 	if(module.hot) {
 	  module.hot.accept('./reducers/reducer.js', () => {
